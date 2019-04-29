@@ -1,0 +1,21 @@
+{
+  "name": "react-app-actions",
+  "version": "1.0.0",
+  "description": "Framework to create App Actions for a React project",
+  "scripts": {
+    "test": "parcel cypress/app/index.html --port 12000 & wait-on http://localhost:12000; cypress open",
+    "start": "npm run test"
+  },
+  "author": "Miklos Megyes <miklos@eclecticiq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.2.0",
+    "wait-on": "^3.2.0"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}

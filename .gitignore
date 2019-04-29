@@ -1,0 +1,6 @@
+cypress/videos
+cypress/screenshots
+cypress-results.json
+.cache
+node_modules/
+dist/
